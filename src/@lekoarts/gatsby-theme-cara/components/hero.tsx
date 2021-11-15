@@ -9,6 +9,7 @@ import { UpDown, UpDownWide } from "../styles/animations"
 import Footer from "./footer"
 // @ts-ignore
 import Intro from "../sections/intro"
+// shadow attempt
 
 const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
