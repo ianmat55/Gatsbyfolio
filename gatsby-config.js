@@ -57,5 +57,20 @@ module.exports = {
         openAnalyzer: false,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `sections`,
+        path: `${__dirname}/src/sections`,
+      },
+    },
+    mdx && {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        lessBabel: true,
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-theme-ui`,
   ].filter(Boolean),
 }
