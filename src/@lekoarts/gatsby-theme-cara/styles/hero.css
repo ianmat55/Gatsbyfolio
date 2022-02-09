@@ -36,3 +36,39 @@ p {
 	top: 2rem;
 	right: 6rem;
 }
+
+@media only screen and (max-width: 1700px) {
+	.imgCircle {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.imgCircle {
+		margin: 0;
+		position: relative;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.imgCircle {
+		margin: 0;
+		width: 15rem;
+		position: relative;
+	}
+
+	#home {
+		padding-top: 1em;
+		flex-direction: column-reverse;
+	}
+	
+	h1 {
+		font-size: 2rem;
+	}
+
+	#light-dark-container {
+		right: 1em;
+	}
+}
+
