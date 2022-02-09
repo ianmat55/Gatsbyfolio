@@ -48,6 +48,7 @@ p {
 	.imgCircle {
 		margin: 0;
 		position: relative;
+		display: none;
 	}
 }
 
@@ -69,6 +70,7 @@ p {
 
 	#light-dark-container {
 		right: 1em;
+		top: 0;
 	}
 }
 
