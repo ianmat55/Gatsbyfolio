@@ -1,0 +1,17 @@
+form {
+	width: 25em;
+}
+
+.form-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-text {
+	height: 5em;
+}
+
+#submit {
+	padding: .5rem;
+	margin-top: 1rem;
+}
