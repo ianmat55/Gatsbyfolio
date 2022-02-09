@@ -1,5 +1,6 @@
 form {
 	width: 25em;
+	max-width: 100%;
 }
 
 .form-item {
