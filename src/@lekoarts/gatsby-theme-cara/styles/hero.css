@@ -6,6 +6,10 @@ p {
 	display: flex;
 }
 
+#job-title {
+	color: #48bb78;
+}
+
 #title {
 	display: flex;
 	flex-direction: column;
@@ -22,9 +26,9 @@ p {
 	border-radius: 50%;
 	position: relative;
 	overflow: hidden;
-	width: 20rem;
+	width: 30rem;
 	z-index: -10;
-	margin: 3em; 
+	margin: 5em; 
 }
 
 /* .imgCircle img {

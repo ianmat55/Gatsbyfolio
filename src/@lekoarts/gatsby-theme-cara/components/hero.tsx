@@ -48,12 +48,12 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <Footer />
         <div id='home'>
           <div id='title'>
-            <p> Full Stack Developer </p>
+            <p id='job-title'> Full Stack Developer </p>
             <Intro />
-          </div> 
+          </div>
           <div className='imgCircle'>
             <img src={profile} id='profile' />
-          </div>
+          </div> 
         </div>
       </Inner>
     </Content>
