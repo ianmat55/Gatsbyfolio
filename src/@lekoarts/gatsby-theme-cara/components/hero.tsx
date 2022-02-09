@@ -10,6 +10,8 @@ import Footer from "./footer"
 // @ts-ignore
 import Intro from "../sections/intro"
 // shadow attempt
+import profile from "../../../../static/profile.jpg"
+import '../styles/hero.css'
 
 const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
@@ -43,9 +45,17 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     </Divider>
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
       <Inner>
-        <Intro />
+        <Footer />
+        <div id='home'>
+          <div id='title'>
+            <p> Full Stack Developer </p>
+            <Intro />
+          </div> 
+          <div className='imgCircle'>
+            <img src={profile} id='profile' />
+          </div>
+        </div>
       </Inner>
-      <Footer />
     </Content>
   </div>
 )

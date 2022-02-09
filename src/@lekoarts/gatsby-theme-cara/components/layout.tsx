@@ -31,10 +31,10 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
         "[hidden]": {
           display: `none`,
         },
-        "::selection": {
-          backgroundColor: theme.colors.primary,
-          color: theme.colors.background,
-        },
+        // "::selection": {
+        //   backgroundColor: theme.colors.primary,
+        //   color: theme.colors.background,
+        // },
       })}
     />
     <SEO />

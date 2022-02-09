@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { Box, Flex, Link, useColorMode, jsx } from "theme-ui"
+import { Box, useColorMode, jsx } from "theme-ui"
 
 const Footer = () => {
   const [colorMode, setColorMode] = useColorMode()
@@ -9,8 +9,9 @@ const Footer = () => {
   }
 
   return (
-    <Box as="footer" variant="footer">
+    <Box as="footer" variant="footer" id='light-dark-container'>
       <button
+        id='light-dark'
         sx={{ variant: `buttons.toggle`, fontWeight: `semibold`, display: `block`, mx: `auto`, mb: 3 }}
         onClick={toggleColorMode}
         type="button"
@@ -18,22 +19,6 @@ const Footer = () => {
       >
         {isDark ? `Light` : `Dark`}
       </button>
-    
-      <br />
-      {/* <Flex
-        sx={{
-          justifyContent: `center`,
-          alignItems: `center`,
-          mt: 3,
-          color: `text`,
-          fontWeight: `semibold`,
-          a: { color: `text` },
-        }}
-      >
-        {` `}
-        <div sx={{ mx: 1 }}>by</div>
-        {` `}
-      </Flex> */}
     </Box>
   )
 }

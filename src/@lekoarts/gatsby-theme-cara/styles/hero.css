@@ -1,0 +1,38 @@
+p {
+	font-size: 1.3rem
+}
+
+#home {
+	display: flex;
+}
+
+#title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#profile {
+	height: 100%;
+	width: auto;
+	max-width: 100%;
+}
+
+.imgCircle {
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	width: 20rem;
+	z-index: -10;
+	margin: 3em; 
+}
+
+/* .imgCircle img {
+	position: relative
+} */
+
+#light-dark-container {
+	position: fixed;
+	top: 2rem;
+	right: 6rem;
+}
