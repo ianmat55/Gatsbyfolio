@@ -8,6 +8,10 @@ form {
 	flex-direction: column;
 }
 
+input {
+	height: 1.5em;
+}
+
 .form-text {
 	height: 5em;
 }
