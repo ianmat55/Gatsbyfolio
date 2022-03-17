@@ -37,12 +37,12 @@ p {
 	right: 6rem;
 }
 
-@media only screen and (max-width: 1700px) {
+/* @media only screen and (max-width: 1700px) {
 	.imgCircle {
 		width: 100%;
 		height: 100%;
 	}
-}
+} */
 
 @media only screen and (max-width: 1200px) {
 	.imgCircle {
