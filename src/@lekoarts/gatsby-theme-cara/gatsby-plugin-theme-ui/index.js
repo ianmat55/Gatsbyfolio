@@ -11,6 +11,7 @@ const theme = merge(tailwind, {
     secondary: tailwind.colors.indigo[6],
     text: tailwind.colors.gray[3],
     heading: tailwind.colors.white,
+    heading2: '#48bb78',
     background: `#141821`,
     divider: tailwind.colors.gray[8],
     textMuted: tailwind.colors.gray[5],
@@ -96,25 +97,25 @@ const theme = merge(tailwind, {
       fontSize: [4, 5, 6],
       mt: 2,
       mb: 2,
-      color: `heading`,
+      color: `heading2`,
     },
     h3: {
       fontSize: [3, 4, 5],
       mt: 3,
-      color: `heading`,
+      color: `heading2`,
     },
     h4: {
       fontSize: [2, 3, 4],
-      color: `heading`,
+      color: `heading2`,
     },
     h5: {
       fontSize: [1, 2, 3],
-      color: `heading`,
+      color: `heading2`,
     },
     h6: {
       fontSize: 1,
       mb: 2,
-      color: `heading`,
+      color: `heading2`,
     },
   },
   layout: {
