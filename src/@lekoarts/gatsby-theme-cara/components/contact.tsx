@@ -8,7 +8,6 @@ import '../styles/contact.css'
 
 const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
-   
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
         <ContactMDX />
