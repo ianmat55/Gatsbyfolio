@@ -1,12 +1,12 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { jsx } from "theme-ui";
 
 type ProjectCardProps = {
-  link: string
-  title: string
-  children: React.ReactNode
-  bg: string
-}
+  link: string;
+  title: string;
+  children: React.ReactNode;
+  bg: string;
+};
 
 const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
   <a
@@ -31,20 +31,24 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
       },
     }}
   >
-    <div sx={{ opacity: 0.85, textShadow: `0 2px 10px rgba(0, 0, 0, 0.3)` }}>{children}</div>
     <div
       sx={{
         textTransform: `uppercase`,
         letterSpacing: `wide`,
         pt: 4,
         fontSize: [4, 5],
+        paddingTop: 0,
+        paddingBottom: "2rem",
         fontWeight: `medium`,
         lineHeight: 1,
       }}
     >
       {title}
     </div>
+    <div sx={{ opacity: 0.85, textShadow: `0 2px 10px rgba(0, 0, 0, 0.3)` }}>
+      {children}
+    </div>
   </a>
-)
+);
 
-export default ProjectCard
+export default ProjectCard;
