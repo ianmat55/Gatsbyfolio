@@ -16,20 +16,6 @@ p {
 	justify-content: center;
 }
 
-#profile {
-	height: 100%;
-	width: auto;
-	max-width: 100%;
-}
-
-.imgCircle {
-	border-radius: 50%;
-	position: relative;
-	overflow: hidden;
-	width: 30rem;
-	z-index: -10;
-	margin: 5em; 
-}
 
 #light-dark-container {
 	position: fixed;
@@ -37,28 +23,8 @@ p {
 	right: 6rem;
 }
 
-/* @media only screen and (max-width: 1700px) {
-	.imgCircle {
-		width: 100%;
-		height: 100%;
-	}
-} */
-
-@media only screen and (max-width: 1200px) {
-	.imgCircle {
-		margin: 0;
-		position: relative;
-		display: none;
-	}
-}
 
 @media only screen and (max-width: 750px) {
-	.imgCircle {
-		margin: 0;
-		width: 15rem;
-		position: relative;
-	}
-
 	#home {
 		padding-top: 1em;
 		flex-direction: column-reverse;

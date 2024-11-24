@@ -8,8 +8,6 @@ import { UpDown, UpDownWide } from "../styles/animations";
 import Footer from "./footer";
 // @ts-ignore
 import Intro from "../sections/intro";
-// shadow attempt
-import profile from "../../../../static/profile.jpg";
 import "../styles/hero.css";
 
 const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
@@ -151,9 +149,6 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           <div id="title">
             <p id="job-title"> Software Engineer </p>
             <Intro />
-          </div>
-          <div className="imgCircle">
-            <img src={profile} id="profile" />
           </div>
         </div>
       </Inner>
