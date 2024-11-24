@@ -10,12 +10,15 @@ p {
 	color: #48bb78;
 }
 
+#intro {
+	max-width: 50vw;
+}
+
 #title {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
-
 
 #light-dark-container {
 	position: fixed;

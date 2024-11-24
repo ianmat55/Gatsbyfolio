@@ -148,7 +148,9 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <div id="home">
           <div id="title">
             <p id="job-title"> Software Engineer </p>
-            <Intro />
+            <div id="intro">
+              <Intro />
+            </div>
           </div>
         </div>
       </Inner>
