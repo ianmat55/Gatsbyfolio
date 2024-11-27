@@ -22,7 +22,7 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
       <Content speed={0.4} offset={offset} factor={factor}>
         <Inner>
           <div>
-            <h2 id="contact"> Contact </h2>
+            <h1 id="contact"> Contact </h1>
             <ContactMDX />
           </div>
           <form name="contact" method="POST" data-netlify="true">
